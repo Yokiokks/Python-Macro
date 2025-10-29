@@ -8,5 +8,5 @@ def press_space(interval):
         keyboard.release('w')
         time.sleep(interval)
 
-# Exemplo de uso: pressionar a tecla de espaço a cada 0.1 segundos
 press_w(0.1)
+
