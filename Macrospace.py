@@ -3,10 +3,8 @@ import time
 
 def press_space(interval):
     while True:
-        keyboard.press('w')
+        keyboard.press("YOURKEYHERE")
         time.sleep(interval)
-        keyboard.release('w')
-        time.sleep(interval)
+press_space(0.1)
 
-press_w(0.1)
 
