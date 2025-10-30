@@ -1,10 +1,13 @@
 import keyboard
 import time
-
-def press_space(interval):
+tecla = input("Insira a sua tecla:")
+tempo = input("tempo de demora:")
+def press_space():
     while True:
-        keyboard.press("YOURKEYHERE")
-        time.sleep(interval)
-press_space(0.1)
+        keyboard.press(tecla)
+        time.sleep(tempo)
+        print("tecla pressionada", tecla)
+press_space()
+
 
 
